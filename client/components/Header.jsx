@@ -6,7 +6,7 @@ function Header(props) {
   return (
     <Navbar bg="dark" variant="dark">
       <Navbar.Brand className="brand"><i className="fa fa-paw" /> Redwulf</Navbar.Brand>
-      <Nav>
+      <Nav className="ml-auto">
         <Nav.Link href="#About">About</Nav.Link>
         <Nav.Link href="#Work">Gallery</Nav.Link>
         <Nav.Link href="#Commission">Commissions</Nav.Link>
