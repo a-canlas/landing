@@ -135,7 +135,7 @@ class Gallery extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       src: "./assets/xmascard2019.jpeg",
       className: "d-block w-100",
       alt: "Huntington Holiday"
-    })));
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_1__["default"].Caption, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Huntington Holiday 2019"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "No matter where you are this year, may you find some holiday cheer"))));
   }
 
 }
