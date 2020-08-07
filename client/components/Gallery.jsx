@@ -9,7 +9,7 @@ class Gallery extends React.Component {
           <img
             src="./assets/xmascard2019.jpeg"
             className="d-block w-100"
-            alt="Huntington Holiday" />
+            alt="Huntington Holiday Card" />
           <Carousel.Caption>
             <h3>Huntington Holiday 2019</h3>
             <p>Artwork for my 2019 holiday card</p>
@@ -19,10 +19,21 @@ class Gallery extends React.Component {
           <img
             src="./assets/LeoComputer.png"
             className="d-block w-100"
-            alt="Leo Studying"
+            alt="Fox on computer"
           />
           <Carousel.Caption>
             <h3>Tinkering</h3>
+            <p>Digital commission made with Medibang</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            src="./assets/TawnyRoom.png"
+            className="d-block w-100"
+            alt="Trying on collar in room"
+          />
+          <Carousel.Caption>
+            <h3>My Safe Space</h3>
             <p>Digital commission made with Medibang</p>
           </Carousel.Caption>
         </Carousel.Item>
