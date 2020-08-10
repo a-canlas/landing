@@ -7,12 +7,26 @@ i {
   font-family: 'Rock Salt', cursive;
 }
 
-.art-slide {
-  background-position: center center;
+.carousel-item {
+  height: 100%;
+  width: 100%;
 }
 
-@media only screen and (min-width: 768px){
-  .art-slide {
-    height: 90vh;
-  }
+/* .art-1 {
+  background-image: url('./assets/xmascard2019.jpeg');
 }
+
+.art-2 {
+  background-image: url('./assets/LeoComputer.png');
+}
+
+.art-3 {
+  background-image: url('./assets/TawnyRoom.png');
+}
+
+.art-1, .art-2, .art-3 {
+  height: 40vmin;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+} */
