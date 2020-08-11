@@ -7,12 +7,7 @@ i {
   font-family: 'Rock Salt', cursive;
 }
 
-.art-slide {
-  background-position: center center;
-}
-
-@media only screen and (min-width: 768px){
-  .art-slide {
-    height: 90vh;
-  }
+.carousel-item {
+  height: 100%;
+  width: 100%;
 }
