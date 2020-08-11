@@ -15,7 +15,19 @@ class Gallery extends React.Component {
               className="d-block w-100"
               alt="Fox on computer"
             />
+          </picture>
+        </Carousel.Item>
+        <Carousel.Item>
+          <picture>
+            <source srcSet="./assets/room-l.png" media="(min-width: 1400px"/>
+            <source srcSet="./assets/room-m.png" media="(min-width: 768px"/>
+            <source srcSet="./assets/room-s.png" media="(min-width: 576px"/>
 
+            <img
+              srcSet="./assets/room-xs.png"
+              className="d-block w-100"
+              alt="Wolf putting on collar"
+            />
           </picture>
         </Carousel.Item>
       </Carousel>

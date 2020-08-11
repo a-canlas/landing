@@ -146,6 +146,19 @@ class Gallery extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       srcSet: "./assets/leo-xs.png",
       className: "d-block w-100",
       alt: "Fox on computer"
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_1__["default"].Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("picture", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
+      srcSet: "./assets/room-l.png",
+      media: "(min-width: 1400px"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
+      srcSet: "./assets/room-m.png",
+      media: "(min-width: 768px"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
+      srcSet: "./assets/room-s.png",
+      media: "(min-width: 576px"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      srcSet: "./assets/room-xs.png",
+      className: "d-block w-100",
+      alt: "Wolf putting on collar"
     }))));
   }
 
