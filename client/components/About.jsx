@@ -13,8 +13,8 @@ const About = props => {
         </Col>
         <Col className="text-center">
           <h2>About Me</h2>
-          <p> Drawing brings me great joy and I love being able to share what I create with the world. I&apos;m a self taught hobby artist who has been drawing &quot;animal people&quot; since I was a small kid. My interest in drawing these characters has led me on a journey where I have met so many great, talented people from all stretches of the world. I currently work primarily with digital media on my iPad Pro. My applications of choice are currently Procreate and Medibang. I also work with traditional media, utilizing Copic markers, pencils, Sakura Micron pens and a little watercolor. I strive to continue to grow and learn more techniques from observation, experimentation and practice. </p>
-          <p>I hope you enjoy the works I have created. If you would like to commission me for a custom work of art, please visit my commission form</p>
+          <p className="larger-text">Drawing brings me great joy and I love being able to share what I create with the world. I&apos;m a self taught hobby artist who has been drawing &quot;animal people&quot; since I was a small kid. My interest in drawing these characters has led me on a journey where I have met so many great, talented people from all stretches of the world. I work primarily with digital media on my iPad Pro. My applications of choice are currently Procreate and Medibang. I also work with traditional media, utilizing Copic markers, pencils, Sakura Micron pens and a little watercolor. I strive to continue to grow and learn more techniques from observation, experimentation and practice. </p>
+          <p className="larger-text">I hope you enjoy the works I have created. If you would like to commission me for a custom work of art, please visit my commission form</p>
 
         </Col>
       </Row>

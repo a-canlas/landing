@@ -121,7 +121,11 @@ const About = props => {
     roundedCircle: true
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
     className: "text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " Drawing brings me great joy and I love being able to share what I create with the world. I'm a self taught hobby artist who has been drawing \"animal people\" since I was a small kid. My interest in drawing these characters has led me on a journey where I have met so many great, talented people from all stretches of the world. I currently work primarily with digital media on my iPad Pro. My applications of choice are currently Procreate and Medibang. I also work with traditional media, utilizing Copic markers, pencils, Sakura Micron pens and a little watercolor. I strive to continue to grow and learn more techniques from observation, experimentation and practice. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I hope you enjoy the works I have created. If you would like to commission me for a custom work of art, please visit my commission form"))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "larger-text"
+  }, "Drawing brings me great joy and I love being able to share what I create with the world. I'm a self taught hobby artist who has been drawing \"animal people\" since I was a small kid. My interest in drawing these characters has led me on a journey where I have met so many great, talented people from all stretches of the world. I work primarily with digital media on my iPad Pro. My applications of choice are currently Procreate and Medibang. I also work with traditional media, utilizing Copic markers, pencils, Sakura Micron pens and a little watercolor. I strive to continue to grow and learn more techniques from observation, experimentation and practice. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "larger-text"
+  }, "I hope you enjoy the works I have created. If you would like to commission me for a custom work of art, please visit my commission form"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
