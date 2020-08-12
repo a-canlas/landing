@@ -11,3 +11,11 @@ i {
   height: 100%;
   width: 100%;
 }
+
+.about {
+  background-color: rgb(199, 173, 208);
+}
+
+.larger-text {
+  font-size: 1.25rem;
+}
