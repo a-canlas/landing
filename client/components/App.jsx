@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import About from './About';
 import Gallery from './Gallery';
 
 class App extends React.Component {
@@ -7,6 +8,7 @@ class App extends React.Component {
     return (
       <>
         <Header />
+        <About />
         <Gallery />
       </>
     );
