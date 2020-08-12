@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 
 const About = props => {
   return (
-    <Container className="about">
+    <Container className="about" fluid>
       <Row>
         <Col xs={12} s={1}>
           <Image src="./assets/red-pixel.PNG"/>
