@@ -3,6 +3,9 @@ i {
   font-size: 20px;
 }
 
+p, h2, h3, .social i {
+  color: #343a40;
+}
 .brand {
   font-family: 'Rock Salt', cursive;
 }
@@ -13,9 +16,20 @@ i {
 }
 
 .about {
-  background-color: rgb(199, 173, 208);
+  background-color: rgb(225, 211, 230);
 }
 
 .larger-text {
   font-size: 1.25rem;
+}
+
+.social, .social:hover {
+  color: #343a40;
+  text-decoration: none;
+  font-size: .80rem;
+}
+
+.social:visited {
+  text-decoration: none;
+  color: red;
 }
