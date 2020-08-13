@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import About from './About';
 import Gallery from './Gallery';
+import Contact from './Contact';
 
 class App extends React.Component {
   render() {
@@ -10,6 +11,7 @@ class App extends React.Component {
         <Header />
         <About />
         <Gallery />
+        <Contact />
       </>
     );
   }
