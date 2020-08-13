@@ -19,3 +19,17 @@ i {
 .larger-text {
   font-size: 1.25rem;
 }
+
+.social, .social:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.social:visited {
+  text-decoration: none;
+  color: red;
+}
+
+.social i {
+  color: black;
+}

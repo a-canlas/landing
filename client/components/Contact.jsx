@@ -7,8 +7,8 @@ const Contact = props => {
       <Container fluid>
         <h3>Contact Me</h3>
 
-        <a href="#mail"><i className="far fa-envelope"/> redwulfdraws@gmail.com</a>
-        <a href="#twitter"> @rede4bed</a>
+        <a href="#mail" className="social"><i className="far fa-envelope"/> redwulfdraws@gmail.com</a>
+        <a href="#twitter" className="social"><i className="fab fa-twitter"/> @rede4bed</a>
 
       </Container>
 
