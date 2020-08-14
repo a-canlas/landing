@@ -9,8 +9,8 @@ function Header(props) {
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="#About">About</Nav.Link>
-          <Nav.Link href="#Work">Gallery</Nav.Link>
+          <Nav.Link href="#about">About</Nav.Link>
+          <Nav.Link href="#work">Gallery</Nav.Link>
           <Nav.Link href="#Commission">Commissions</Nav.Link>
           <Nav.Link href="#contact">Contact Me</Nav.Link>
         </Nav>
