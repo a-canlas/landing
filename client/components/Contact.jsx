@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 const Contact = props => {
   return (
     <>
-      <Container className="text-center" fluid>
+      <Container className="text-center" id="contact" fluid>
         <h3>Contact Me</h3>
 
         <a href="#mail" className="social"><i className="far fa-envelope" /> redwulfdraws@gmail.com</a> <span className="mx-1">&#124;</span>
