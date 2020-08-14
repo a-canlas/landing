@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 
 function Header(props) {
   return (
-    <Navbar bg="dark" variant="dark" expand="md">
+    <Navbar fixed="top" bg="dark" variant="dark" expand="md">
       <Navbar.Brand className="brand"><i className="fa fa-paw" /> Redwulf</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
