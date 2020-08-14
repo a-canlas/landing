@@ -1,3 +1,7 @@
+body {
+  padding-top: 55px;
+}
+
 i {
   color: white;
   font-size: 20px;
@@ -32,4 +36,14 @@ p, h2, h3, .social i {
 .social:visited {
   text-decoration: none;
   color: red;
+}
+
+.billboard {
+  background-color: rgb(228, 230, 211);
+  background-image: url('./assets/red-moon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  height: 80vh;
 }

@@ -9,7 +9,7 @@ const About = props => {
     <Container className="about" fluid>
       <Row>
         <Col xs={12}>
-          <Image className="mx-auto d-block my-3" width="200px" height="200px" src="./assets/red1.png" roundedCircle/>
+          <Image className="mx-auto d-block my-3" id="about" width="200px" height="200px" src="./assets/red1.png" roundedCircle/>
         </Col>
         <Col className="text-center">
           <h2>About Me</h2>
