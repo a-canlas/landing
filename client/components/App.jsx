@@ -6,6 +6,15 @@ import Gallery from './Gallery';
 import Contact from './Contact';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.scrollToComponent = this.scrollToComponent.bind(this);
+  }
+
+  scrollToComponent(comp) {
+    comp.scrollIntoView({ behavior: 'smooth' });
+  }
+
   render() {
     return (
       <>
