@@ -9,11 +9,10 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.scrollToComponent = this.scrollToComponent.bind(this);
-    this.About = React.createRef();
   }
 
   scrollToComponent(comp) {
-    comp.scrollIntoView({ behavior: 'smooth' });
+    comp.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
 
   render() {
@@ -21,7 +20,7 @@ class App extends React.Component {
       <>
         <Header />
         <Billboard />
-        <About ref={this.About}/>
+        <About />
         <Gallery />
         <Contact />
       </>
