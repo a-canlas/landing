@@ -164,9 +164,12 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
   scrollToComponent(comp) {
     const node = document.querySelector(comp);
-    node.scrollIntoView({
-      behavior: 'smooth',
-      block: 'center'
+    const offset = 55;
+    const elementPosition = node.getBoundingClientRect().top;
+    const offsetPosition = elementPosition - offset;
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
     });
   }
 
