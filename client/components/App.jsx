@@ -12,7 +12,8 @@ class App extends React.Component {
   }
 
   scrollToComponent(comp) {
-    comp.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    const node = document.querySelector(comp);
+    node.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
 
   render() {
