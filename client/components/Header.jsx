@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-scroll';
 
 function Header(props) {
   return (
@@ -9,7 +10,9 @@ function Header(props) {
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link >About</Nav.Link>
+          <Link to="about" smooth={true} duration={500} offset={-55}>
+            <Nav.Link as="span">About</Nav.Link>
+          </Link>
           <Nav.Link >Gallery</Nav.Link>
           <Nav.Link href="https://docs.google.com/forms/d/e/1FAIpQLSdpga0br64iOw-0X6cYdw2wP3TfdWGG4T2qnFudQaY3XxQ9-w/closedform" target="_blank">Commissions</Nav.Link>
           <Nav.Link>Contact Me</Nav.Link>

@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 
 const About = props => {
   return (
-    <Container className="about" id="about" fluid>
+    <Container name="about" className="about" id="about" fluid>
       <Row>
         <Col xs={12}>
           <Image className="mx-auto d-block my-3" width="200px" height="200px" src="./assets/red1.png" roundedCircle/>
