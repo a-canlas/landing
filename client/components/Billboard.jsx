@@ -4,7 +4,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 const Billboard = props => {
   return (
     <>
-      <Jumbotron className="billboard" fluid>
+      <Jumbotron name="billboard" className="billboard" id="billboard" fluid>
         <h1>Artworks by Redwulf</h1>
       </Jumbotron>
     </>
