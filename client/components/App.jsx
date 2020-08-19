@@ -22,7 +22,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Header navigate={this.scrollToComponent}/>
+        <Header />
         <Billboard />
         <About />
         <Gallery />
