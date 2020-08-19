@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 class Gallery extends React.Component {
   render() {
     return (
-      <Carousel id="work" name="work">
+      <Carousel id="gallery" name="gallery">
         <Carousel.Item>
           <picture>
             <source srcSet="./assets/holiday-l.png" media="(min-width: 1400px)"/>
