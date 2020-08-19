@@ -109,7 +109,6 @@ __webpack_require__.r(__webpack_exports__);
 
 const About = props => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "about",
     className: "about",
     id: "about",
     fluid: true
@@ -201,7 +200,6 @@ __webpack_require__.r(__webpack_exports__);
 
 const Billboard = props => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Jumbotron__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "billboard",
     className: "billboard",
     id: "billboard",
     fluid: true
@@ -269,8 +267,7 @@ __webpack_require__.r(__webpack_exports__);
 class Gallery extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      id: "gallery",
-      name: "gallery"
+      id: "gallery"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_1__["default"].Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("picture", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
       srcSet: "./assets/holiday-l.png",
       media: "(min-width: 1400px)"
