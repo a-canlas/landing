@@ -269,8 +269,8 @@ __webpack_require__.r(__webpack_exports__);
 class Gallery extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      id: "work",
-      name: "work"
+      id: "gallery",
+      name: "gallery"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_1__["default"].Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("picture", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
       srcSet: "./assets/holiday-l.png",
       media: "(min-width: 1400px)"
@@ -347,11 +347,16 @@ function Header(props) {
     bg: "dark",
     variant: "dark",
     expand: "md"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "billboard",
+    smooth: true,
+    duration: 500,
+    offset: -55
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"].Brand, {
     className: "brand"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-paw"
-  }), " Redwulf"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"].Toggle, {
+  }), " Redwulf")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"].Toggle, {
     "aria-controls": "responsive-navbar-nav"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"].Collapse, {
     id: "responsive-navbar-nav"
@@ -366,13 +371,13 @@ function Header(props) {
     as: "span",
     href: "#about"
   }, "About")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Link"], {
-    to: "work",
+    to: "gallery",
     smooth: true,
     duration: 500,
     offset: -55
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2__["default"].Link, {
     as: "span",
-    href: "#work"
+    href: "#gallery"
   }, "Gallery")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2__["default"].Link, {
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdpga0br64iOw-0X6cYdw2wP3TfdWGG4T2qnFudQaY3XxQ9-w/closedform",
     target: "_blank"
