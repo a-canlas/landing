@@ -19,7 +19,9 @@ function Header(props) {
             <Nav.Link as="span" href="#gallery">Gallery</Nav.Link>
           </Link>
           <Nav.Link href="https://docs.google.com/forms/d/e/1FAIpQLSdpga0br64iOw-0X6cYdw2wP3TfdWGG4T2qnFudQaY3XxQ9-w/closedform" target="_blank">Commissions</Nav.Link>
-          <Nav.Link>Contact Me</Nav.Link>
+          <Link to="contact" smooth={true} duration={500}>
+            <Nav.Link as="span" href="contact">Contact Me</Nav.Link>
+          </Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
